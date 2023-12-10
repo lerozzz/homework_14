@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -13,4 +13,18 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.weather-table-row {
+    border: medium solid green;
+    width: 10%;
+    padding: 8px;
+}
+
+
+.button-primary {
+    margin: 0 auto;
+    display: block;
+    width: 60px;
+    height: 30px;
 }
