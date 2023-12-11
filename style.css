@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    margin: 20px;
+    margin: 30px;
 }
 
 .text-center {
@@ -13,13 +13,23 @@ body {
 
 ul {
     list-style-type: none;
+    right: 70%;
+    padding: 0;
+    margin: 0;
 }
 
 .weather-table-row {
     border: medium solid green;
     width: 10%;
     padding: 8px;
+    min-width: max-content;
 }
+
+.icon li {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 .button-primary {
@@ -27,4 +37,5 @@ ul {
     display: block;
     width: 60px;
     height: 30px;
+    position: relative;
 }
